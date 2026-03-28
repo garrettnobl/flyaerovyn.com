@@ -52,7 +52,7 @@
   }
 
   .nav-logo img {
-    height: 36px;
+    height: 52px;
     width: auto;
     display: block;
   }
@@ -101,7 +101,21 @@
     border-bottom: 1px solid var(--light-border);
   }
 
-  .hero-content { max-width: 760px; }
+ .hero {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hero-content { max-width: 580px; }
+  .hero-logo-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+  }
+  .hero-logo-right img {
+    width: 340px;
+    opacity: 0.92;
+  }
 
   .hero-eyebrow {
     font-family: var(--font-display);
@@ -766,10 +780,13 @@
       <div class="model-divider"></div>
       <p class="model-desc">The ARM-1 bracket is a one-time acquisition per drone. Each mission consumes one AC-1 capsule. Agencies that equip their fleet create a predictable recurring resupply requirement on installed hardware.</p>
     </div>
+    <div class="hero-logo-right">
+      <img src="Aerovyn-Logo-2-Larger.jpg" alt="Aerovyn LLC">
+    </div>
   </div>
 </section>
 
-<!-- MARKETS -->
+<!-- MISSION -->
 <section id="markets" class="markets">
   <div class="markets-bg"></div>
   <div class="markets-content">
