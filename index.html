@@ -27,8 +27,22 @@
   }
 
   html { scroll-behavior: smooth; }
-  body { font-family: var(--font-body); color: var(--navy); background: var(--white); overflow-x: hidden; }
-
+   body { font-family: var(--font-body); color: var(--navy); background: var(--white); overflow-x: hidden; }
+  
+  .mission, .products, .markets, .contact-section, footer {
+    padding-left: max(6%, calc((100% - 1200px) / 2));
+    padding-right: max(6%, calc((100% - 1200px) / 2));
+  }
+  
+  .hero {
+    padding-left: max(6%, calc((100% - 1200px) / 2));
+    padding-right: max(6%, calc((100% - 1200px) / 2));
+  }
+  
+  nav {
+    padding-left: max(6%, calc((100% - 1200px) / 2));
+    padding-right: max(6%, calc((100% - 1200px) / 2));
+  }
   /* NAV */
   nav {
     position: fixed; top: 0; left: 0; right: 0; z-index: 100;
