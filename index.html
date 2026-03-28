@@ -27,22 +27,8 @@
   }
 
   html { scroll-behavior: smooth; }
-   body { font-family: var(--font-body); color: var(--navy); background: var(--white); overflow-x: hidden; }
-  
-  .mission, .products, .markets, .contact-section, footer {
-    padding-left: max(6%, calc((100% - 1200px) / 2));
-    padding-right: max(6%, calc((100% - 1200px) / 2));
-  }
-  
-  .hero {
-    padding-left: max(6%, calc((100% - 1200px) / 2));
-    padding-right: max(6%, calc((100% - 1200px) / 2));
-  }
-  
-  nav {
-    padding-left: max(6%, calc((100% - 1200px) / 2));
-    padding-right: max(6%, calc((100% - 1200px) / 2));
-  }
+  body { font-family: var(--font-body); color: var(--navy); background: var(--white); overflow-x: hidden; }
+
   /* NAV */
   nav {
     position: fixed; top: 0; left: 0; right: 0; z-index: 100;
@@ -203,12 +189,8 @@
     display: grid; grid-template-columns: 1fr 1fr;
     gap: 1px; background: var(--light-border);
     border: 1px solid var(--light-border); border-radius: 3px; overflow: hidden;
-    align-items: stretch;
   }
-  .product-card {
-    height: 100%;
-  }
-  .product-card { background: var(--white); padding: 44px 38px; transition: background 0.2s; height: 100%; }
+  .product-card { background: var(--white); padding: 44px 38px; transition: background 0.2s; }
   .product-card:hover { background: #F8FAFC; }
   .product-card.featured { background: var(--navy); }
   .product-card.featured:hover { background: #1e3368; }
@@ -462,7 +444,7 @@
   <div>
     <div class="section-eyebrow">Our Mission</div>
     <h2 class="section-title">The gap between life<br>and death is access.</h2>
-    <p class="section-body">The capsule carries a full TCCC trauma loadout and works with any compatible drone via the ARM-1 mount bracket. It follows the military's standard MARCH trauma protocol, addressing hemorrhage, airway obstruction, and tension pneumothorax; the three causes that account for virtually all preventable pre-hospital deaths.</p>
+    <p class="section-body">The capsule carries a full TCCC trauma loadout and works with any compatible drone via the ARM-1 mount bracket. It follows the military's standard MARCH trauma protocol, addressing hemorrhage, airway obstruction, and tension pneumothorax — the three causes that account for virtually all preventable pre-hospital deaths.</p>
     <div class="pillars">
       <div class="pillar">
         <div class="pillar-title">No New Hardware</div>
@@ -474,7 +456,7 @@
       </div>
       <div class="pillar">
         <div class="pillar-title">Thermal Management</div>
-        <div class="pillar-text">Active cooling maintains USP controlled room temperature for sensitive medical contents.</div>
+        <div class="pillar-text">Active Peltier cooling maintains USP controlled room temperature for sensitive medical contents.</div>
       </div>
       <div class="pillar">
         <div class="pillar-title">Recurring Revenue</div>
@@ -504,7 +486,7 @@
       </svg>
       <div class="product-name">Aerovyn Capsule</div>
       <div class="product-designation">AC-1 · Payload System</div>
-      <p class="product-desc">A single-use, thermally managed medical supply capsule pre-loaded with a full TECC/MARCH trauma loadout. Contents address the top three preventable causes of traumatic death: hemorrhage, airway obstruction, and tension pneumothorax. Opens clamshell with a single button press, one-handed, with gloves on.</p>
+      <p class="product-desc">A single-use, thermally managed medical supply capsule sized at 180x120x75mm. Pre-loaded with a domestic TECC/MARCH trauma loadout including tourniquet, hemostatic gauze, chest seals, airway adjunct, and compression bandage. An active Peltier thermoelectric module maintains interior temperature independent of ambient conditions. Opens clamshell with a single button press, one-handed, with gloves on.</p>
       <div class="product-tags">
         <span class="tag">Active Thermal</span>
         <span class="tag">TCCC / TECC</span>
@@ -525,7 +507,7 @@
       </svg>
       <div class="product-name">Recovery Mount</div>
       <div class="product-designation" style="color:rgba(27,45,92,0.5);">ARM-1 · Bracket System</div>
-      <p class="product-desc">A reusable mechanical bracket that interfaces the AC-1 with compatible drone platforms via a published attachment standard. The capsule locks in before flight and releases automatically on landing through a passive pressure trigger. The drone returns to the operator. No electronics interface required. One bracket stays on the drone indefinitely.</p>
+      <p class="product-desc">A reusable polymer bracket that bolts to the Skydio X10/X10D via the published Attachment ICD. The capsule locks in before flight and releases automatically on landing through a passive spring-loaded pressure trigger. The drone returns to the operator. No electronics interface required. One bracket stays on the drone indefinitely.</p>
       <div class="product-tags">
         <span class="tag">Reusable</span>
         <span class="tag">ICD Compatible</span>
