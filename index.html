@@ -4,10 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Aerovyn LLC</title>
-<meta name="description" content="Aerovyn develops a drone-mountable medical supply capsule that delivers trauma care supplies to casualties at the point of injury.">
+<meta name="description" content="Aerovyn LLC develops advanced payload systems for unmanned aircraft, built for defense, law enforcement, and critical response.">
 <meta name="robots" content="index, follow">
 <meta property="og:title" content="Aerovyn LLC">
-<meta property="og:description" content="A drone-mountable medical supply capsule built for law enforcement, defense, and critical response.">
+<meta property="og:description" content="Aerovyn LLC develops advanced payload systems for unmanned aircraft, built for defense, law enforcement, and critical response.">
 <meta property="og:url" content="https://flyaerovyn.com">
 <meta property="og:type" content="website">
 <link rel="canonical" href="https://flyaerovyn.com">
@@ -269,7 +269,7 @@
 
   /* CONTACT */
   .contact-section { background: var(--off-white); }
-  .contact-wrapper { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
+  .contact-wrapper { max-width: 640px; }
   .contact-note {
     font-size: 14px; font-weight: 300; line-height: 1.7; color: var(--gray);
     margin-top: 22px; padding: 16px 18px;
@@ -288,40 +288,9 @@
   .contact-info-value { font-size: 14px; color: var(--navy); }
   .contact-info-value a { color: var(--navy); text-decoration: none; }
   .contact-info-value a:hover { color: var(--sky); }
-  .contact-form {
-    background: var(--white); border: 1px solid var(--light-border);
-    border-radius: 3px; padding: 38px;
-  }
-  .form-title {
-    font-family: var(--font-display); font-size: 17px; font-weight: 600;
-    letter-spacing: 0.04em; color: var(--navy); margin-bottom: 24px;
-  }
-  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
-  .form-group { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; }
-  .form-group.half { margin-bottom: 0; }
-  label {
-    font-family: var(--font-display); font-size: 11px; font-weight: 600;
-    letter-spacing: 0.14em; text-transform: uppercase; color: var(--navy);
-  }
-  input[type="text"], input[type="email"], select, textarea {
-    width: 100%; font-family: var(--font-body); font-size: 14px; font-weight: 300; color: var(--navy);
-    background: var(--off-white); border: 1px solid var(--light-border);
-    border-radius: 2px; padding: 11px 13px; outline: none; transition: border-color 0.2s;
-    -webkit-appearance: none; appearance: none;
-  }
-  input:focus, select:focus, textarea:focus { border-color: var(--sky); background: var(--white); }
-  textarea { resize: vertical; min-height: 110px; }
-  .form-submit {
-    width: 100%; font-family: var(--font-display); font-size: 13px; font-weight: 600;
-    letter-spacing: 0.1em; text-transform: uppercase;
-    color: var(--white); background: var(--navy);
-    border: none; padding: 14px; border-radius: 2px;
-    cursor: pointer; margin-top: 8px; transition: background 0.2s;
-  }
+
   .form-submit:hover { background: var(--sky); }
-  .form-status { display: none; margin-top: 12px; font-size: 13px; text-align: center; padding: 10px; border-radius: 2px; }
-  .form-status.success { display: block; background: rgba(27,158,212,0.07); color: var(--sky); border: 1px solid rgba(27,158,212,0.18); }
-  .form-status.error { display: block; background: rgba(220,53,69,0.06); color: #c0392b; border: 1px solid rgba(220,53,69,0.14); }
+
 
   /* FOOTER */
   footer { background: #0D1A35; padding: 48px 6% 28px; border-top: 1px solid rgba(27,158,212,0.12); }
@@ -404,7 +373,7 @@
   <div class="hero-content">
     <div class="hero-eyebrow">Defense Technology &nbsp;·&nbsp; Atlanta, Georgia</div>
     <h1 class="hero-title">Medical Supply.<br>Delivered by <span>Drone.</span></h1>
-    <p class="hero-subtitle">Aerovyn LLC is developing a lightweight, thermally insulated medical supply pod that mounts to drones already fielded by U.S. military squads, law enforcement, and industrial safety teams. When a soldier is down in a contact zone, a firefighter is trapped in a collapse, or a worker is injured miles from the nearest paramedic, sending another person in risks creating a second casualty. The AC-1 Aerovyn Capsule eliminates that problem by turning the drone already on scene into a medical resupply vehicle.</p>
+    <p class="hero-subtitle">Aerovyn LLC develops advanced payload systems for unmanned aircraft, built around the operational demands of defense, law enforcement, and critical response. We extend the capability of drone platforms already in the field, without new airframe procurement. When reaching a casualty means risking another one, the answer is already in the air.</p>
     <div class="hero-actions">
       <a href="#products" class="btn-primary">Our Products</a>
       <a href="#contact" class="btn-ghost">Get in Touch</a>
@@ -444,7 +413,7 @@
   <div>
     <div class="section-eyebrow">Our Mission</div>
     <h2 class="section-title">The gap between life<br>and death is access.</h2>
-    <p class="section-body">The capsule carries a full TCCC trauma loadout and works with any compatible drone via the ARM-1 mount bracket. It follows the military's standard MARCH trauma protocol, addressing hemorrhage, airway obstruction, and tension pneumothorax; the three causes that account for virtually all preventable pre-hospital deaths.</p>
+    <p class="section-body">Our systems are designed for the moments when sending another person in creates a second casualty. We build hardware that works with platforms already on scene, delivering what is needed before the situation gets worse. Every design decision is driven by operational reality, not laboratory assumptions.</p>
     <div class="pillars">
       <div class="pillar">
         <div class="pillar-title">No New Hardware</div>
@@ -456,7 +425,7 @@
       </div>
       <div class="pillar">
         <div class="pillar-title">Thermal Management</div>
-        <div class="pillar-text">Active Peltier cooling maintains USP controlled room temperature for sensitive medical contents.</div>
+        <div class="pillar-text">Active temperature control maintains safe conditions for sensitive medical contents in austere environments.</div>
       </div>
       <div class="pillar">
         <div class="pillar-title">Simple Resupply</div>
@@ -473,7 +442,7 @@
       <div class="section-eyebrow">Product Suite</div>
       <h2 class="section-title">Two Products.<br>One System.</h2>
     </div>
-    <p class="products-intro">The Aerovyn system is a thermally managed payload capsule paired with a reusable mechanical mount bracket. The bracket stays on the drone. The capsule deploys with each mission. Zero new airframe required.</p>
+    <p class="products-intro">The Aerovyn system is purpose-built for drone-based payload delivery in time-critical environments. It is designed to work with platforms already in the field, requiring no new airframe procurement and no changes to existing drone operations.</p>
   </div>
   <div class="product-grid">
     <div class="product-card featured">
@@ -486,7 +455,7 @@
       </svg>
       <div class="product-name">Aerovyn Capsule</div>
       <div class="product-designation">AC-1 · Payload System</div>
-      <p class="product-desc">A single-use, thermally managed medical supply capsule pre-loaded with a full TECC/MARCH trauma loadout. Contents address the top three preventable causes of traumatic death: hemorrhage, airway obstruction, and tension pneumothorax. Opens clamshell with a single button press, one-handed, with gloves on.</p>
+      <p class="product-desc">A thermally managed medical supply payload designed for drone delivery in contested, remote, or access-denied environments. Built to address the leading causes of preventable traumatic death. Engineered for rapid, one-handed deployment by personnel under stress.</p>
       <div class="product-tags">
         <span class="tag">Active Thermal</span>
         <span class="tag">TCCC / TECC</span>
@@ -507,7 +476,7 @@
       </svg>
       <div class="product-name">Recovery Mount</div>
       <div class="product-designation" style="color:rgba(27,45,92,0.5);">ARM-1 · Bracket System</div>
-      <p class="product-desc">A reusable mechanical bracket that attaches the AC-1 to compatible drone platforms via a published attachment standard. Releases automatically on landing through a passive pressure trigger with no electronics interface required. The drone recovers to the operator after every deployment.</p>
+      <p class="product-desc">A reusable mechanical interface system that attaches the payload to compatible drone platforms. Designed for reliable deployment and drone recovery after every mission, with no modifications to existing airframe hardware required.</p>
       <div class="product-tags">
         <span class="tag">Reusable</span>
         <span class="tag">Universally Mountable</span>
@@ -547,7 +516,7 @@
           </svg>
         </div>
         <div class="market-name">Defense</div>
-        <p class="market-desc">Squad-level medical resupply for Army, USAF, and SOF units operating Blue UAS-cleared platforms in contested environments.</p>
+        <p class="market-desc">Squad-level medical resupply for military units operating in contested environments where ground-based casualty evacuation is delayed or not possible.</p>
       </div>
       <div class="market-item">
         <div class="market-icon-wrap">
@@ -556,7 +525,7 @@
           </svg>
         </div>
         <div class="market-name">Law Enforcement</div>
-        <p class="market-desc">Tactical LE agencies running Drone as First Responder programs. Designed to ride existing DFR infrastructure with no new airframe procurement.</p>
+        <p class="market-desc">Tactical law enforcement agencies running drone programs who need a medical resupply capability without adding new platforms or procurement cycles.</p>
       </div>
       <div class="market-item">
         <div class="market-icon-wrap">
@@ -589,88 +558,45 @@
 <!-- CONTACT -->
 <section id="contact" class="contact-section">
   <div class="contact-wrapper">
-    <div>
-      <div class="section-eyebrow">Get in Touch</div>
-      <h2 class="section-title">Partnerships, Investment &amp; Procurement</h2>
-      <p class="section-body">Aerovyn is currently in seed stage and actively engaging with law enforcement agencies, defense partners, investors, and strategic advisors.</p>
-      <div class="contact-note">
-        All inquiries are held in strict confidence. Technical specifications and program details are available under NDA for qualified parties.
+    <div class="section-eyebrow">Get in Touch</div>
+    <h2 class="section-title">Partnerships, Investment &amp; Procurement</h2>
+    <p class="section-body">Aerovyn is currently in seed stage and actively engaging with law enforcement agencies, defense partners, investors, and strategic advisors.</p>
+    <div class="contact-note">
+      All inquiries are held in strict confidence. Technical specifications and program details are available under NDA for qualified parties.
+    </div>
+    <div class="contact-info-item">
+      <div class="contact-icon-wrap">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <path d="M2 4l6 5 6-5M2 4h12v8H2V4z" stroke="#1B9ED4" stroke-width="1.2" stroke-linejoin="round"/>
+        </svg>
       </div>
-      <div class="contact-info-item">
-        <div class="contact-icon-wrap">
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M2 4l6 5 6-5M2 4h12v8H2V4z" stroke="#1B9ED4" stroke-width="1.2" stroke-linejoin="round"/>
-          </svg>
-        </div>
-        <div>
-          <div class="contact-info-label">Email</div>
-          <div class="contact-info-value"><a href="mailto:garrett.noble@flyaerovyn.com">garrett.noble@flyaerovyn.com</a></div>
-        </div>
-      </div>
-      <div class="contact-info-item">
-        <div class="contact-icon-wrap">
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M3 2h3l1 3-1.5 1.5a9 9 0 003 3L10 8l3 1v3a1 1 0 01-1 1A12 12 0 012 3a1 1 0 011-1z" stroke="#1B9ED4" stroke-width="1.2" stroke-linejoin="round"/>
-          </svg>
-        </div>
-        <div>
-          <div class="contact-info-label">Phone</div>
-          <div class="contact-info-value"><a href="tel:+14044761925">(404) 476-1925</a></div>
-        </div>
-      </div>
-      <div class="contact-info-item">
-        <div class="contact-icon-wrap">
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M8 1.5C5.5 1.5 3.5 3.5 3.5 6C3.5 9.5 8 14.5 8 14.5C8 14.5 12.5 9.5 12.5 6C12.5 3.5 10.5 1.5 8 1.5Z" stroke="#1B9ED4" stroke-width="1.2"/>
-            <circle cx="8" cy="6" r="1.5" fill="#1B9ED4" opacity="0.5"/>
-          </svg>
-        </div>
-        <div>
-          <div class="contact-info-label">Location</div>
-          <div class="contact-info-value">Atlanta, Georgia, USA</div>
-        </div>
+      <div>
+        <div class="contact-info-label">Email</div>
+        <div class="contact-info-value"><a href="mailto:info@flyaerovyn.com">info@flyaerovyn.com</a></div>
       </div>
     </div>
-    <div class="contact-form">
-      <div class="form-title">Send an Inquiry</div>
-      <form id="contactForm" onsubmit="handleSubmit(event)" novalidate>
-        <div class="form-row">
-          <div class="form-group half">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstName" placeholder="John" required>
-          </div>
-          <div class="form-group half">
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastName" placeholder="Smith" required>
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="email">Email Address</label>
-          <input type="email" id="email" name="email" placeholder="john.smith@agency.gov" required>
-        </div>
-        <div class="form-group">
-          <label for="org">Organization</label>
-          <input type="text" id="org" name="organization" placeholder="Agency / Company / Fund">
-        </div>
-        <div class="form-group">
-          <label for="inquiryType">Inquiry Type</label>
-          <select id="inquiryType" name="inquiryType" required>
-            <option value="" disabled selected>Select inquiry type</option>
-            <option value="Investment">Investment / Seed Funding</option>
-            <option value="Defense">Defense / DoD Partnership</option>
-            <option value="Law Enforcement">Law Enforcement Pilot</option>
-            <option value="Industrial">Industrial Safety</option>
-            <option value="Strategic">Strategic Partnership</option>
-            <option value="General">General Inquiry</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" placeholder="Tell us about your interest or use case..." required></textarea>
-        </div>
-        <button type="submit" class="form-submit" id="submitBtn">Submit Inquiry</button>
-        <div class="form-status" id="formStatus"></div>
-      </form>
+    <div class="contact-info-item">
+      <div class="contact-icon-wrap">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <path d="M3 2h3l1 3-1.5 1.5a9 9 0 003 3L10 8l3 1v3a1 1 0 01-1 1A12 12 0 012 3a1 1 0 011-1z" stroke="#1B9ED4" stroke-width="1.2" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div>
+        <div class="contact-info-label">Phone</div>
+        <div class="contact-info-value"><a href="tel:+14044761925">(404) 476-1925</a></div>
+      </div>
+    </div>
+    <div class="contact-info-item">
+      <div class="contact-icon-wrap">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <path d="M8 1.5C5.5 1.5 3.5 3.5 3.5 6C3.5 9.5 8 14.5 8 14.5C8 14.5 12.5 9.5 12.5 6C12.5 3.5 10.5 1.5 8 1.5Z" stroke="#1B9ED4" stroke-width="1.2"/>
+          <circle cx="8" cy="6" r="1.5" fill="#1B9ED4" opacity="0.5"/>
+        </svg>
+      </div>
+      <div>
+        <div class="contact-info-label">Location</div>
+        <div class="contact-info-value">Atlanta, Georgia, USA</div>
+      </div>
     </div>
   </div>
 </section>
@@ -695,7 +621,7 @@
   </div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   function toggleNav() { document.getElementById('navLinks').classList.toggle('open'); }
   function closeNav() { document.getElementById('navLinks').classList.remove('open'); }
 
@@ -710,21 +636,6 @@
     });
   });
 
-  function handleSubmit(e) {
-    e.preventDefault();
-    const btn = document.getElementById('submitBtn');
-    const status = document.getElementById('formStatus');
-    const form = document.getElementById('contactForm');
-    btn.textContent = 'Sending...';
-    btn.disabled = true;
-    setTimeout(() => {
-      status.className = 'form-status success';
-      status.textContent = 'Your inquiry has been received. We will be in touch shortly.';
-      form.reset();
-      btn.textContent = 'Submit Inquiry';
-      btn.disabled = false;
-    }, 1000);
-  }
 </script>
 </body>
 </html>
